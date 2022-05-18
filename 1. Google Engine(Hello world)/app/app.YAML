@@ -1,0 +1,13 @@
+# Open cloud sdk shell and type 
+#google-cloud-sdk\bin\dev_appserver.py "C:\Users\Harshsk\Desktop\CC\CC Fullenjoy\1. Google Engine(Hello world)\app"
+#Now open browser and enter
+# localhost:8000
+
+
+runtime: python27
+api_version: 1
+threadsafe: false
+
+handlers:
+- url: /
+  script: index.py
